@@ -1,5 +1,3 @@
-# management/commands/generate_buy_signals.py
-
 from django.core.management.base import BaseCommand
 from analys.models import Candlestick, BuySignal
 
@@ -14,7 +12,7 @@ class Command(BaseCommand):
         first_candle = candlesticks.first()
         first_open_price = first_candle.open_price
 
-        # Iterate over the remaining candlesticks
+
         for candlestick in candlesticks[1:]:
             # Compare the current price with the open price of the first candlestick
             if candlestick.close_price > first_open_price:

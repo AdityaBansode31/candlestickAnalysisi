@@ -1,5 +1,3 @@
-# management/commands/import_candlestick_data.py
-
 import csv
 import os
 from django.conf import settings
