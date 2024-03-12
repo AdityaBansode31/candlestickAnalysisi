@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}BuySignal{% endblock title %}
+
+
+{% block style %}
+
+<style>
+    /* Custom CSS for table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+
+{% endblock style %}
+
+{% block position %}bottom{% endblock position %}
+
+{% block body %}
+
+<div class="container">
+    <h1 class="mt-5 mb-4">Buy Signals</h1>
+    <table class="table table-striped">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Timestamp</th>
+                <th scope="col">Price</th>
+                <th scope="col">Signal Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for buy_signal in buy_signals %}
+            <tr>
+                <td>{{ buy_signal.timestamp|date:"Y-m-d H:i:s" }}</td>
+                <td>{{ buy_signal.price }}</td>
+                <td>{{ buy_signal.signal_type }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock body %}

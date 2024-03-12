@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Candle data list{% endblock title %}
+
+{% block style %}
+    <style>
+       
+    </style>
+{% endblock style %}
+{% block position %}bottom{% endblock position %}
+
+{% block body %}
+
+
+
+    <div class="container mt-5">
+        <h1 class="mb-4">Candlestick Data List</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Open Price</th>
+                    <th>Close Price</th>
+                    <th>High Price</th>
+                    <th>Low Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for candle in candles %}
+                <tr>
+                    <td>{{ candle.timestamp|date:"Y-m-d H:i:s" }}</td>
+                    <td>{{ candle.open_price }}</td>
+                    <td>{{ candle.close_price }}</td>
+                    <td>{{ candle.high_price }}</td>
+                    <td>{{ candle.low_price }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock body %}
