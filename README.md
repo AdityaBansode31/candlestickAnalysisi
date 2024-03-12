@@ -6,11 +6,13 @@ code is present in the master branch
 
 
 # HOME PAGE
-![Screenshot 2024-03-12 132523](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/17a3402c-e090-4ca4-a5c8-703197642a8b)
+![Screenshot 2024-03-12 134127](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/bdbb2b00-0a4a-4b9b-98bb-87a0e7b47984)
 
 # CANDLESTICK DATA LIST
-![Screenshot 2024-03-12 132953](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/2c15c191-8b85-4585-b61f-92bde68cb289)
-
+![Screenshot 2024-03-12 134152](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/a5d0bc2f-021b-4a9a-8152-e242b9902ac6)
 
 # BUYING SIGNAL LIST
-![Screenshot 2024-03-12 132911](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/fde118d8-7e5e-4b51-9206-9a29057a3864)
+![Screenshot 2024-03-12 134208](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/7831aa68-d331-48be-84ee-e008eec6a3aa)
+
+# ADMIN PAGE SQLITE MODELS
+![Screenshot 2024-03-12 134247](https://github.com/AdityaBansode31/candlestickAnalysisi/assets/79712975/7080fc76-e4c9-4cce-a9df-95644c5c5079)
